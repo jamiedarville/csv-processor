@@ -1,0 +1,11 @@
+Header1,Header2,Host,Header4,OperatingSystem,Header6,Header7,Vulnerability
+DataA,DataB,server-alpha,DataD,Windows Server 2019,DataF,DataG,CVE-2025-1234
+DataA,DataB,server-beta,DataD,Ubuntu 22.04 LTS,DataF,DataG,CVE-2025-5678
+DataA,DataB,server-gamma,DataD,Windows Server 2019,DataF,DataG,CVE-2025-1234
+DataA,DataB,server-alpha,DataD,Windows Server 2019,DataF,DataG,CVE-2025-9101
+DataA,DataB,server-delta,DataD,Red Hat Enterprise Linux 8,DataF,DataG,
+DataA,DataB,server-epsilon,DataD,Ubuntu 22.04 LTS,DataF,DataG,CVE-2025-5678
+DataA,DataB,server-zeta,DataD,Windows Server 2022,DataF,DataG,
+DataA,DataB,,DataD,Ubuntu 20.04 LTS,DataF,DataG,CVE-2025-1112
+DataA,DataB,server-eta,DataD,,DataF,DataG,CVE-2025-1112
+DataA,DataB,server-beta,DataD,Ubuntu 22.04 LTS,DataF,DataG,
