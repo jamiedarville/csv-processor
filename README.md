@@ -2,6 +2,8 @@
 
 This Python script processes a CSV file containing server information to generate three summary reports: a count of unique operating systems, a count of unique hostnames, and a count of unique vulnerabilities.
 
+This was created for dealing with CSV reports from Qualys to strip down only relevant data and be able to create custom reports easier.
+
 ## 📜 Description
 
 The primary purpose of this tool is to provide a quick and easy way to get high-level summaries from a server data export. It reads a CSV file, extracts specific columns for hostnames, operating systems, and vulnerabilities, and then outputs three separate, timestamped CSV files with the aggregated data. This is particularly useful for system administrators, security analysts, or anyone needing a quick overview of their server fleet's composition and security posture.
