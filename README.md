@@ -17,7 +17,7 @@ The primary purpose of this tool is to provide a quick and easy way to get high-
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/jamiedarville/csv-processor.git)
+    git clone [https://github.com/your-username/your-repository-name.git]
     cd your-repository-name
     ```
 
@@ -67,3 +67,82 @@ The script will generate three CSV files in the specified output directory (or t
 ## 📝 License
 
 This project is licensed under the MIT License - see the **LICENSE** file for details.
+
+## 💻 Installation on MacOS and Windows
+
+### MacOS
+
+1.  **Install Python:** The recommended way to install Python on MacOS is using Homebrew. If you don't have Homebrew, you can install it from [https://brew.sh/](https://brew.sh/).
+
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+2.  **Install Python using Homebrew:**
+
+    ```bash
+    brew install python3
+    ```
+
+3.  **Verify Installation:**
+
+    ```bash
+    python3 --version
+    ```
+
+### Windows
+
+1.  **Download Python:** Go to the official Python website ([https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)) and download the latest version of Python for Windows.
+
+2.  **Run the Installer:**
+
+    *   Make sure to check the box that says "Add Python to PATH" during the installation. This will allow you to run Python from the command line.
+
+3.  **Verify Installation:**
+
+    *   Open a command prompt (cmd) and type:
+
+    ```bash
+    python --version
+    ```
+
+### Running the script
+
+1.  **Navigate to the directory:**
+
+    *   Open a terminal or command prompt and navigate to the directory where you saved the `csv-processor.py` file.
+
+2.  **Create a virtual environment (recommended):**
+
+    ```bash
+    python3 -m venv env
+    ```
+
+    *   Activate the virtual environment:
+
+        *   **On MacOS:**
+
+            ```bash
+            source env/bin/activate
+            ```
+
+        *   **On Windows:**
+
+            ```bash
+            .\env\Scripts\activate
+            ```
+
+3.  **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the script:**
+
+    ```bash
+    python csv_processor.py input_data.csv output_directory
+    ```
+
+    *   Replace `input_data.csv` with the path to your CSV file.
+    *   Replace `output_directory` with the path to the directory where you want to save the reports. If you don't specify an output directory, the reports will be saved in the same directory as the script.
