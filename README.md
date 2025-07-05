@@ -19,7 +19,7 @@ The primary purpose of this tool is to provide a quick and easy way to get high-
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/jamiedarville/csv-processor.git)
+    git clone [https://github.com/your-username/your-repository-name.git]
     cd your-repository-name
     ```
 
